@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.no-animations * {
+  /* disable all animations */
+  animation: none !important;
+  /* hide the cursor caret when in inputs */
+  caret-color: transparent !important;
+}
